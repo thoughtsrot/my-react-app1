@@ -4,83 +4,95 @@
     "name": "SpongeBob",
     "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
     "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "location": "A Pineapple Under the Sea",
+    "clickstatus": false
   },
   {
     "id": 2,
     "name": "Marvin the Martian",
     "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiGpo6FxK_fAhXSoYMKHQykCQIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt9wmWZbr_wQ&psig=AOvVaw23xtlTKP1Y_SgyuJbmv2SW&ust=1545433792261732",
     "occupation": "World Detroyer",
-    "location": "Mars"
+    "location": "Mars",
+    "clickstatus": false
   },
   {
     "id": 3,
     "name": "Totoro",
     "image": "https://www.pinterest.com/pin/297026537905556203/",
     "occupation": "Tree Spirit",
-    "location": "Giant Cypress Tree"
+    "location": "Giant Cypress Tree",
+    "clickstatus": false
   },
   {
     "id": 4,
     "name": "Dexter",
     "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
     "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "location": "A Secret Laboratory",
+    "clickstatus": false
   },
   {
     "id": 5,
     "name": "Courage",
     "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
     "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "location": "Nowhere, Kansas",
+    "clickstatus": false
   },
   {
     "id": 6,
     "name": "Doug Funnie",
     "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
     "occupation": "Student",
-    "location": "Bluffington"
+    "location": "Bluffington",
+    "clickstatus": false
   },
   {
     "id": 7,
     "name": "No Face",
     "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQ6IOcxa_fAhUH6IMKHQudBw8QjRx6BAgBEAU&url=http%3A%2F%2Fhero.wikia.com%2Fwiki%2FNo-Face&psig=AOvVaw3dv7ktOvF7lNuAlP-qs9W3&ust=1545434170515683",
     "occupation": "Demon",
-    "location": "Zeniba's Cottage"
+    "location": "Zeniba's Cottage",
+    "clickstatus": false
   },
   {
     "id": 8,
     "name": "Johnny Bravo",
     "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
     "occupation": "Ladies Man",
-    "location": "Aron City"
+    "location": "Aron City",
+    "clickstatus": false
   },
   {
     "id": 9,
     "name": "Calcifer",
     "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwibweabxq_fAhUp1oMKHToCCigQjRx6BAgBEAU&url=https%3A%2F%2Ftenor.com%2Fview%2Fcalcifer-studio-ghibli-ghibli-howl-howls-moving-castle-gif-5833497&psig=AOvVaw3JVR5aHpUh_hqIZZcEvfP7&ust=1545434463937312",
     "occupation": "Fire Demon",
-    "location": "Howl's Moving Castle"
+    "location": "Howl's Moving Castle",
+    "clickstatus": false
   },
   {
     "id": 10,
     "name": "Rocko",
     "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
     "occupation": "Cashier",
-    "location": "O-Town, California"
+    "location": "O-Town, California",
+    "clickstatus": false
   },
   {
     "id": 11,
     "name": "Nausicaä",
     "image": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fmontclairfilm.org%2Fwp-content%2Fuploads%2F2017%2F07%2FNAUSICAA-OF-THE-VALLEY-OF-THE-WIND-.jpg&imgrefurl=http%3A%2F%2Fmontclairfilm.org%2Fevents%2Fnausicaa-of-the-valley-of-the-wind%2F&docid=O5RqBMy1qn82WM&tbnid=X9Io2zN_izTOQM%3A&vet=10ahUKEwjDntmWx6_fAhVCiOAKHdsvC94QMwh2KAwwDA..i&w=960&h=540&bih=624&biw=1280&q=nausicaa&ved=0ahUKEwjDntmWx6_fAhVCiOAKHdsvC94QMwh2KAwwDA&iact=mrc&uact=8",
     "occupation": "Princess, Philanthropist, Horticulturist",
-    "location": "Valley of the Wind"
+    "location": "Valley of the Wind",
+    "clickstatus": false
   },
   {
     "id": 12,
     "name": "Ickis",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "location": "Under a City Dump",
+    "clickstatus": false
   }
 ]

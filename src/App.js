@@ -1,28 +1,35 @@
 import React, { Component } from 'react';
 import Card from "./components/Card";
 import Container from "./components/Container";
+import characters from "./characters.json";
 
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+
+  state = {
+    characters
   }
+
+render () {
+
+  <Container>
+    {this.state.characters.map(character => (
+          <Card
+            clickedCharacter={this.clickedCharacter}
+            id={character.id}
+            key={character.id}
+            name={character.name}
+            image={character.image}
+            occupation={character.occupation}
+            location={character.location}
+            clickStatus={character.clickedStatus}
+          />
+        ))}
+    
+  </Container>
+
+}
+
 }
 
 export default App;
