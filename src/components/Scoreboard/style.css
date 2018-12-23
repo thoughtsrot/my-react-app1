@@ -1,0 +1,8 @@
+.scoreBoard {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: initial;
+  color: salmon;
+  margin-bottom: 50px;
+}

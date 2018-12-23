@@ -1,11 +1,11 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function Card(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} onClick={()=> props.clickedCharacter(props.index)}/>
       </div>
       <div className="content">
         <ul>
@@ -18,6 +18,7 @@ function Card(props) {
           <li>
             <strong>Location:</strong> {props.location}
           </li>
+          
         </ul>
       </div>
 
