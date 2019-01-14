@@ -12,8 +12,10 @@ class App extends Component {
     characters: characters,
 
     clickedOnce: 0,
+    // currentScore: 0
 
     clickedMoreThanOnce: 0,
+    // topScore: 0
 
   }
 
@@ -33,7 +35,7 @@ class App extends Component {
     } else {
 
       sameGuess++;
-      alert("You already selected that character!")
+      alert("You already selected that character! Try again...")
     }
 
 
@@ -54,7 +56,7 @@ class App extends Component {
 
       <Container>
         <Title>Welcome to Clickin' It with Friends! Ghibli Edition</Title>
-        <Scoreboard>Wrong Guesses: <span>{this.state.clickedMoreThanOnce}</span>, Correct Guesses: <span>{this.state.clickedOnce}</span> of 10</Scoreboard>
+        <Scoreboard>Wrong Guesses: <span>{this.state.clickedMoreThanOnce}</span>, Correct Guesses: <span>{this.state.clickedOnce}</span> of 12</Scoreboard>
         {this.state.characters.map((character, index) => (
           <Card
             clickedCharacter={this.clickedCharacter}
